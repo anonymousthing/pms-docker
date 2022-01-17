@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM nvidia/vulkan:1.1.121-cuda-10.1-beta.1-ubuntu18.04
 
 ARG S6_OVERLAY_VERSION=v2.2.0.3
 ARG S6_OVERLAY_ARCH=amd64
